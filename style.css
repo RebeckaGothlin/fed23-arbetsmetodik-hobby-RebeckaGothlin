@@ -28,3 +28,16 @@ p {
     width: 600px;
     margin: 0 auto;
 }
+
+.slideshow {
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+}
+
+.slideshow img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
