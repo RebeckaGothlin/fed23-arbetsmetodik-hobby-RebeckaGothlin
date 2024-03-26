@@ -4,10 +4,32 @@
     font-style: normal;
 }
 
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 body {
+    background-image: url("./images/pexels-steve-johnson-2345952.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+main {
+    width: 900px;
     margin: 0 auto;
     text-align: center;
-    background-color: rgb(237, 233, 235);
+    background-color: rgb(255, 255, 255);
+    font-family: "Montserrat";
+}
+
+header {
+    background-image: url("./images/pexels-steve-johnson-fix.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px;
 }
 
 h1 {
@@ -24,11 +46,18 @@ h2 {
     font-size: 3rem;
     margin-top: 0;
     padding-top: 0;
+    font-weight: 500;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 p {
     width: 500px;
     margin: 0 auto;
+    text-align: justify;
 }
 
 .slideshow {
