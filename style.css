@@ -122,3 +122,7 @@ p {
     border-bottom: 10px solid transparent;
     border-left: 10px solid white;
 }
+
+footer {
+    color: white;
+}
